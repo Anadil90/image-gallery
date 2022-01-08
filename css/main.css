@@ -1,0 +1,228 @@
+.jumbotron{
+    color: #2c3e50;
+    background: #ecf0f1;
+    margin-top: 58px!important;
+
+}
+
+.fa-image{
+    font-size: 24px;
+}
+
+.navbar{
+    background: rgba(33, 33, 33, 0.85);
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff!important;
+}
+
+.nav-link:hover{
+    color: #f33939!important;
+}
+
+.fa-heart:hover{
+    color: #ff0000;
+}
+
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar-brand:hover{
+    color: #ff8c00!important;
+}
+
+.card{
+    margin-bottom: 20px;
+    justify-content: space-between;
+    border: 1px solid #5e9ea6;
+}
+
+.card-img-top {
+    height: 260px;
+}
+.card-img-top:hover{
+    opacity: 0.82;
+    cursor: pointer;
+}
+
+.uploadedBy{
+    display: inline;
+    width: 100%;
+}
+.uploader{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.fa-heart{
+    font-size: 21px;
+}
+
+.fa-heart:hover{
+    cursor: pointer;
+    transform: scale( 1.2);
+    
+}
+
+.navbar{
+    margin-bottom: 60px;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+}
+
+.sidebar-section{
+    position: fixed;
+    top: 60px;
+    z-index: 99;
+
+}
+#sidebar{
+    width: 35px;
+    background-color: rgba(184, 255, 220, 0.63);
+    padding: 5px 0;
+}
+
+.fa-bullhorn{
+     padding: 4px 8.5px;
+    background: rgba(128, 255, 212, 0.75);
+    cursor: pointer;
+}
+
+.fa-bullhorn:hover{
+   color: #ff0000;
+   
+}
+.fab{
+    display: block;
+    font-size: 21px;
+    align-items: center;
+    margin: 15px 5px;
+}
+
+.fab:hover{
+    color: #0000ff;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+hr{
+    background-color: #8a8a8a;
+}
+
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: rgba(128, 128, 128, 0.85);
+    margin-top: 120px;
+    position: sticky;
+    bottom: 0;
+    display: none;
+    
+}
+
+.footer-menu{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-menu:hover{
+    text-decoration: none;
+    color: #00ffbf;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    
+}
+.footer-text{
+    display: block;
+    color: #ffffff;
+    margin: 30px auto;
+}
+
+#social-icons-footer{
+    margin-left: 15px;
+    color: #0000ff;
+}
+
+#social-icons-footer:hover{
+    color: #00ffff;
+    cursor: pointer;
+}
+
+.i-footer{
+    display: inline;
+}
+
+/* media query to resize navbar items for mobile devices  */
+@media  screen and (max-device-width: 574px) and (min-device-width: 320px) {
+    .navbar{
+       font-size: 29px;
+       
+    }
+
+    .navbar-toggler{
+        font-size:29px;
+    }
+
+    .navbar-brand{
+        font-size: 29px;
+    }
+
+    
+}
+
+
+/* media query to size navbar according to grid width  */
+@media (min-width: 500px) {
+    .navbar{
+        width: calc(100% - 1.9rem)
+    }
+}
+
+
+
+@media (min-width: 576px) {
+    .navbar{
+        width: 510px!important;
+        
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .navbar{
+        width: 690px!important;
+    }
+
+    
+}   
+
+/* media query to set default sidebar and footer view for phones */
+@media only screen and (min-device-width: 320px)  and (max-device-width: 567px){
+
+    footer{
+        display: block!important;
+        
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .navbar{
+        width: 929px!important;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .navbar{
+        width: 1110px!important;
+        margin-bottom: 25px;
+    }
+}
